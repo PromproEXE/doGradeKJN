@@ -1,0 +1,46 @@
+.logo {
+    width: 261px;
+}
+
+.navbar-sticky-top {
+    position: sticky;
+    top: 1rem;
+    z-index: 1020;
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.slide-up-enter-from {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.conclude {
+    width: 50%;
+}
+input.form-control.no-box-shadow {
+    box-shadow: none;
+}
+@media screen and (max-width: 991px) {
+    .conclude {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .logo {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .logo {
+        width: 150px;
+    }
+}
+
